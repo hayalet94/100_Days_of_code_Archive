@@ -271,12 +271,10 @@ while True:
 
     elif choice1 == "avoid":
         clear_screen()
-        print("\n\n\nYou avoid the huge footsteps and walk towards the thick jungle...")
-        print("\n\n...as you are walking through the jungle, climbing over old trees in its uneven ground you step on something soft...")
-        print("\n\n...in the same moment you feel a sharp pain, you stepped on a venomous snake and it bit you and swiftly fled...")
+        print("\nYou avoid the huge footsteps and walk towards the thick jungle...")
+        print("\n...as you are walking through the jungle, climbing over old trees in its uneven ground you step on something soft...")
+        print("\n...in the same moment you feel a sharp pain, you stepped on a venomous snake and it bit you and swiftly fled...")
         print("""
-        \n
-                
             ---_ ......._-_--.
             (|\ /      / /| \  |
             /  /     .'  -=-'   `.
@@ -292,7 +290,6 @@ while True:
             `/'\__/      \ _ _ \* 
             /^|            \ _ _ \*
             '  `             \ _ _ \      
-                            
                 """
                     )
         wait_for_space()
