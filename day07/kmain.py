@@ -96,3 +96,5 @@ while tries < 8:
 #if user has 8 mistakes we end the game
 if tries == 8:
     print("GAME OVER!")
+
+    
