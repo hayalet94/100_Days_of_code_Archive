@@ -25,7 +25,9 @@ def hangman_status():
 
     for letter in letter_dict:
         hidden_list += letter["hidden"] + " "
-        
+    
+    
+
     return hidden_list;
 
 #we print our hangman status to see how many letters we have to uncover
@@ -90,8 +92,13 @@ while tries < 8:
             break
         else:
             print(hangman_status())
+        
+
+
+
     else:
         print("Please only put in 1 Letter!")
+
 
 #if user has 8 mistakes we end the game
 if tries == 8:
